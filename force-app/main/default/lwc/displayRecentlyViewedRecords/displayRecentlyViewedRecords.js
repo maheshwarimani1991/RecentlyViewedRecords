@@ -19,7 +19,7 @@ export default class DisplayRecentlyViewedRecords extends LightningElement {
             this.selectedObj = 'Contact';
         }
         if(this.noOfRecords === undefined){
-            this.noOfRecords = 50;
+            this.noOfRecords = 10;
         }
         this.recordsToDisplay = this.noOfRecords;
         this.sObjectName = this.selectedObj;
